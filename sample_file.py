@@ -12,3 +12,6 @@ test_gdf = gpd.read_file(os.path.join(project_dir, 'test.shp'))
 
 # Change on GitHub main branch
 print(test_gdf.shape)
+
+# Change on local development branch
+print(test_gdf.crs)
