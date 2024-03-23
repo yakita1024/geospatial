@@ -9,3 +9,6 @@ project_dir = r'C:\project'
 # Chane for development branch
 # Read shapefile
 test_gdf = gpd.read_file(os.path.join(project_dir, 'test.shp'))
+
+# Change on GitHub main branch
+print(test_gdf.shape)
